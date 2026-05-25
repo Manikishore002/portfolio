@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Manikishore Eshwar — Operations & Transition Leader</title>
+<meta name="description" content="Manikishore Eshwar — Deputy Manager, Enterprise Excellence. 9+ years in US Healthcare RCM. 40+ client transitions delivered. Operations leader, author, and strategic thinker." />
+<meta name="author" content="Manikishore Eshwar" />
+<meta property="og:title" content="Manikishore Eshwar — Operations & Transition Leader" />
+<meta property="og:description" content="9+ years in US Healthcare RCM. 40+ client transitions delivered." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ================================
+   DESIGN TOKENS
+   ================================ */
+:root {
+  /* Palette — refined navy/teal/gold for executive feel */
+  --ink-900: #07101F;
+  --ink-800: #0C1A2E;
+  --ink-700: #122642;
+  --ink-600: #1B3358;
+  --ink-500: #2A4972;
+
+  --teal-300: #5EEAD4;
+  --teal-400: #2DD4BF;
+  --teal-500: #14B8A6;
+  --teal-600: #0D9488;
+
+  --gold-300: #FCD34D;
+  --gold-400: #F5C56A;
+  --gold-500: #D4A847;
+  --gold-600: #B08737;
+
+  --text-50: #F8FAFC;
+  --text-200: #E2E8F0;
+  --text-300: #CBD5E1;
+  --text-400: #94A3B8;
+  --text-500: #64748B;
+
+  /* Effects */
+  --glass-bg: rgba(18, 38, 66, 0.45);
+  --glass-border: rgba(94, 234, 212, 0.12);
+  --glass-border-hover: rgba(94, 234, 212, 0.28);
+  --shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.5);
+  --shadow-teal: 0 0 32px rgba(45, 212, 191, 0.15);
+  --shadow-gold: 0 0 32px rgba(212, 168, 71, 0.12);
+
+  --transition-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 800ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter Tight', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+}
+
+/* ================================
+   RESET & BASE
+   ================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text-200);
+  background: var(--ink-900);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Persistent atmospheric background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 0%, rgba(45, 212, 191, 0.08), transparent 60%),
+    radial-gradient(ellipse 70% 60% at 80% 30%, rgba(212, 168, 71, 0.06), transparent 60%),
+    radial-gradient(ellipse 60% 50% at 50% 100%, rgba(94, 234, 212, 0.05), transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(94, 234, 212, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(94, 234, 212, 0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, black 30%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, black 30%, transparent 80%);
+}
+
+main { position: relative; z-index: 1; }
+
+a { color: inherit; text-decoration: none; }
+
+img { max-width: 100%; height: auto; display: block; }
+
+::selection { background: var(--teal-400); color: var(--ink-900); }
+
+/* ================================
+   TYPOGRAPHY
+   ================================ */
+.display-xl, .display-lg, .display-md, .display-sm {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--text-50);
+}
+.display-xl { font-size: clamp(3rem, 8vw, 6.5rem); }
+.display-lg { font-size: clamp(2.25rem, 5vw, 4rem); }
+.display-md { font-size: clamp(1.75rem, 3.5vw, 2.75rem); }
+.display-sm { font-size: clamp(1.5rem, 2.8vw, 2rem); }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--teal-300);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.eyebrow::before {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background: var(--teal-400);
+}
+
+.lead { font-size: clamp(1.05rem, 1.6vw, 1.25rem); color: var(--text-300); line-height: 1.7; }
+
+/* ================================
+   LAYOUT
+   ================================ */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 4vw, 3rem);
+}
+
+section {
+  padding: clamp(5rem, 10vh, 8rem) 0;
+  position: relative;
+}
+
+.section-header {
+  margin-bottom: clamp(3rem, 6vh, 5rem);
+  max-width: 720px;
+}
+.section-header .eyebrow { margin-bottom: 1.25rem; }
+.section-header p { margin-top: 1.25rem; }
+
+/* ================================
+   NAVIGATION
+   ================================ */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.25rem 0;
+  transition: backdrop-filter var(--transition-base), background var(--transition-base), padding var(--transition-base);
+}
+.nav.scrolled {
+  padding: 0.85rem 0;
+  background: rgba(7, 16, 31, 0.7);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text-50);
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.brand-mark {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--teal-400), var(--ink-600));
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-900);
+  font-weight: 700;
+  box-shadow: var(--shadow-teal);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  align-items: center;
+}
+.nav-links a {
+  font-size: 0.875rem;
+  color: var(--text-300);
+  transition: color var(--transition-fast);
+  position: relative;
+}
+.nav-links a:hover { color: var(--teal-300); }
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -6px; left: 0;
+  width: 0; height: 1px;
+  background: var(--teal-400);
+  transition: width var(--transition-base);
+}
+.nav-links a:hover::after { width: 100%; }
+
+.nav-cta {
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 0.875rem;
+  color: var(--text-50) !important;
+  transition: all var(--transition-base);
+}
+.nav-cta:hover {
+  border-color: var(--teal-400);
+  background: rgba(45, 212, 191, 0.1);
+  transform: translateY(-1px);
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--glass-border);
+  color: var(--text-200);
+  width: 40px; height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================================
+   HERO
+   ================================ */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 8rem 0 4rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-status {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: var(--teal-300);
+  margin-bottom: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+}
+.status-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--teal-400);
+  box-shadow: 0 0 12px var(--teal-400);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.3); }
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 7.5vw, 6rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  color: var(--text-50);
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+.hero-title em {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--teal-300);
+}
+.hero-title .gold {
+  color: var(--gold-400);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.hero-tagline {
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  color: var(--text-300);
+  max-width: 580px;
+  margin-bottom: 2.5rem;
+  line-height: 1.65;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem 3rem;
+  margin-bottom: 2.5rem;
+}
+.hero-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.hero-meta-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-500);
+}
+.hero-meta-value {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--text-50);
+  font-weight: 500;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.95rem 1.6rem;
+  border-radius: 100px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  border: 1px solid transparent;
+  font-family: var(--font-body);
+}
+.btn-primary {
+  background: var(--teal-400);
+  color: var(--ink-900);
+  box-shadow: var(--shadow-teal);
+}
+.btn-primary:hover {
+  background: var(--teal-300);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(45, 212, 191, 0.35);
+}
+.btn-ghost {
+  background: var(--glass-bg);
+  border-color: var(--glass-border);
+  color: var(--text-50);
+  backdrop-filter: blur(10px);
+}
+.btn-ghost:hover {
+  border-color: var(--teal-400);
+  background: rgba(45, 212, 191, 0.08);
+}
+.btn-arrow { transition: transform var(--transition-base); }
+.btn:hover .btn-arrow { transform: translateX(4px); }
+
+/* Hero Right — Operations Console card */
+.console-card {
+  position: relative;
+  padding: 1.75rem;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(18, 38, 66, 0.7), rgba(7, 16, 31, 0.85));
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+.console-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--teal-400), transparent);
+  opacity: 0.6;
+}
+.console-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--glass-border);
+  margin-bottom: 1.25rem;
+}
+.console-title {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-400);
+}
+.console-dots {
+  display: flex;
+  gap: 0.35rem;
+}
+.console-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--ink-500);
+}
+.console-dot.active { background: var(--teal-400); box-shadow: 0 0 8px var(--teal-400); }
+
+.console-stat {
+  padding: 0.75rem 0;
+  border-bottom: 1px dashed rgba(94, 234, 212, 0.1);
+}
+.console-stat:last-child { border-bottom: none; }
+.console-stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-500);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+.console-stat-value {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--text-50);
+  font-weight: 500;
+}
+.console-stat-value .accent { color: var(--gold-400); font-weight: 400; }
+
+.scroll-hint {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  opacity: 0.7;
+}
+.scroll-hint::after {
+  content: '';
+  width: 1px; height: 36px;
+  background: linear-gradient(to bottom, var(--teal-400), transparent);
+  animation: scrollLine 2.2s ease-in-out infinite;
+}
+@keyframes scrollLine {
+  0%, 100% { opacity: 0.3; transform: scaleY(0.7); }
+  50% { opacity: 1; transform: scaleY(1); }
+}
+
+/* ================================
+   ABOUT
+   ================================ */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+.about-text p {
+  margin-bottom: 1.25rem;
+  color: var(--text-300);
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+.about-text p strong { color: var(--text-50); font-weight: 500; }
+.about-text p em { color: var(--teal-300); font-style: italic; }
+
+.about-card {
+  padding: 2rem;
+  border-radius: 16px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 100px;
+}
+.about-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-50);
+  font-weight: 500;
+}
+.values-list { list-style: none; }
+.values-list li {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(94, 234, 212, 0.08);
+}
+.values-list li:last-child { border-bottom: none; }
+.value-num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--gold-400);
+  flex-shrink: 0;
+  padding-top: 0.2rem;
+}
+.value-content strong {
+  display: block;
+  color: var(--text-50);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+.value-content span {
+  font-size: 0.92rem;
+  color: var(--text-400);
+  line-height: 1.55;
+}
+
+/* ================================
+   TIMELINE
+   ================================ */
+.timeline {
+  position: relative;
+  margin-top: 3rem;
+  padding-left: clamp(2rem, 4vw, 3rem);
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: clamp(0.6rem, 1.2vw, 0.9rem);
+  top: 0; bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, var(--teal-500), var(--gold-500), transparent);
+  opacity: 0.5;
+}
+.timeline-item {
+  position: relative;
+  padding: 0 0 3rem 2rem;
+  cursor: pointer;
+}
+.timeline-item:last-child { padding-bottom: 0; }
+.timeline-node {
+  position: absolute;
+  left: -2rem;
+  top: 0.4rem;
+  width: 14px; height: 14px;
+  border-radius: 50%;
+  background: var(--ink-700);
+  border: 2px solid var(--teal-400);
+  transition: all var(--transition-base);
+}
+.timeline-item:hover .timeline-node,
+.timeline-item.active .timeline-node {
+  background: var(--teal-400);
+  box-shadow: 0 0 16px var(--teal-400);
+  transform: scale(1.2);
+}
+.timeline-item.gold .timeline-node { border-color: var(--gold-400); }
+.timeline-item.gold:hover .timeline-node { background: var(--gold-400); box-shadow: 0 0 16px var(--gold-400); }
+
+.timeline-date {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--teal-300);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.4rem;
+}
+.timeline-item.gold .timeline-date { color: var(--gold-400); }
+.timeline-role {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--text-50);
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.01em;
+}
+.timeline-company {
+  font-size: 0.95rem;
+  color: var(--text-400);
+  margin-bottom: 0.85rem;
+}
+.timeline-company strong { color: var(--text-200); font-weight: 500; }
+.timeline-desc {
+  color: var(--text-300);
+  line-height: 1.7;
+  max-width: 700px;
+  font-size: 0.98rem;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height var(--transition-slow), opacity var(--transition-base), margin var(--transition-base);
+}
+.timeline-item.active .timeline-desc,
+.timeline-item:hover .timeline-desc {
+  max-height: 300px;
+  opacity: 1;
+  margin-top: 0.5rem;
+}
+
+.timeline-expand-hint {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-500);
+  letter-spacing: 0.1em;
+  margin-top: 0.5rem;
+  opacity: 0.6;
+}
+.timeline-item.active .timeline-expand-hint,
+.timeline-item:hover .timeline-expand-hint { opacity: 0; height: 0; margin-top: 0; }
+
+/* ================================
+   SKILLS
+   ================================ */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+.skill-card {
+  padding: 1.75rem;
+  border-radius: 16px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+.skill-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--teal-400), transparent);
+  transform: translateX(-100%);
+  transition: transform var(--transition-slow);
+}
+.skill-card:hover {
+  border-color: var(--glass-border-hover);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md), var(--shadow-teal);
+}
+.skill-card:hover::before { transform: translateX(100%); }
+
+.skill-icon {
+  width: 44px; height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(45, 212, 191, 0.15), rgba(212, 168, 71, 0.08));
+  border: 1px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--teal-300);
+  font-weight: 500;
+}
+.skill-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--text-50);
+}
+.skill-card p {
+  font-size: 0.92rem;
+  color: var(--text-400);
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.skill-tag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 100px;
+  background: rgba(94, 234, 212, 0.08);
+  color: var(--teal-300);
+  border: 1px solid rgba(94, 234, 212, 0.1);
+}
+
+/* ================================
+   PROJECTS
+   ================================ */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.project-card {
+  position: relative;
+  padding: 2.25rem;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(18, 38, 66, 0.5), rgba(7, 16, 31, 0.5));
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: all var(--transition-base);
+  cursor: default;
+}
+.project-card:hover {
+  border-color: var(--glass-border-hover);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+.project-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle 400px at var(--mx, 50%) var(--my, 50%), rgba(45, 212, 191, 0.08), transparent 50%);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+}
+.project-card:hover::before { opacity: 1; }
+
+.project-number {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--gold-400);
+  letter-spacing: 0.15em;
+  margin-bottom: 1.25rem;
+}
+.project-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+  color: var(--text-50);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+.project-desc {
+  color: var(--text-300);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 0.98rem;
+}
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--glass-border);
+}
+.project-meta-item {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 100px;
+  background: rgba(212, 168, 71, 0.08);
+  color: var(--gold-400);
+  border: 1px solid rgba(212, 168, 71, 0.15);
+}
+
+/* ================================
+   LEADERSHIP
+   ================================ */
+.leadership-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 4rem;
+  align-items: center;
+}
+.leadership-quote {
+  position: relative;
+  padding: 2.5rem 2.5rem 2.5rem 3.5rem;
+  border-left: 2px solid var(--gold-400);
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 2.3vw, 1.75rem);
+  line-height: 1.45;
+  color: var(--text-50);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-style: italic;
+}
+.leadership-quote::before {
+  content: '\201C';
+  position: absolute;
+  left: 1rem;
+  top: -0.5rem;
+  font-size: 5rem;
+  color: var(--gold-400);
+  opacity: 0.3;
+  line-height: 1;
+}
+
+.leadership-pillars {
+  display: grid;
+  gap: 1rem;
+}
+.pillar {
+  padding: 1.5rem;
+  border-radius: 14px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  display: flex;
+  gap: 1.25rem;
+  align-items: start;
+  transition: all var(--transition-base);
+}
+.pillar:hover {
+  border-color: var(--glass-border-hover);
+  transform: translateX(4px);
+}
+.pillar-num {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--gold-400);
+  font-weight: 400;
+  font-style: italic;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.pillar-content strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text-50);
+  font-weight: 500;
+  margin-bottom: 0.35rem;
+}
+.pillar-content span {
+  font-size: 0.92rem;
+  color: var(--text-400);
+  line-height: 1.6;
+}
+
+/* ================================
+   ACHIEVEMENTS / STATS
+   ================================ */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+.stat-card {
+  padding: 2.25rem 2rem;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(18, 38, 66, 0.6), rgba(7, 16, 31, 0.4));
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.stat-value {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  color: var(--teal-300);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.15em;
+}
+.stat-value .suffix {
+  font-size: 0.5em;
+  color: var(--gold-400);
+  font-weight: 400;
+}
+.stat-card.gold .stat-value { color: var(--gold-400); }
+.stat-card.gold .stat-value .suffix { color: var(--teal-300); }
+.stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-400);
+}
+
+.awards-row {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.award-chip {
+  padding: 0.75rem 1.25rem;
+  border-radius: 100px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  font-size: 0.9rem;
+  color: var(--text-200);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.award-chip::before {
+  content: '\2605';
+  color: var(--gold-400);
+  font-size: 0.95rem;
+}
+
+/* ================================
+   PHILOSOPHY
+   ================================ */
+.philosophy {
+  position: relative;
+}
+.philosophy-card {
+  padding: clamp(2.5rem, 5vw, 5rem);
+  border-radius: 24px;
+  background:
+    radial-gradient(ellipse at top left, rgba(45, 212, 191, 0.08), transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(212, 168, 71, 0.06), transparent 50%),
+    linear-gradient(180deg, rgba(18, 38, 66, 0.6), rgba(7, 16, 31, 0.8));
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
+  position: relative;
+  overflow: hidden;
+}
+.philosophy-content {
+  max-width: 780px;
+}
+.philosophy-statement {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.8vw, 2.25rem);
+  line-height: 1.35;
+  color: var(--text-50);
+  margin-bottom: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+.philosophy-statement em {
+  font-style: italic;
+  color: var(--teal-300);
+  font-weight: 300;
+}
+.philosophy-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--glass-border);
+}
+.philosophy-item strong {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-400);
+  margin-bottom: 0.6rem;
+}
+.philosophy-item p {
+  color: var(--text-300);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+/* ================================
+   TESTIMONIALS
+   ================================ */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.testimonial-card {
+  padding: 2rem;
+  border-radius: 18px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+.testimonial-quote {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text-200);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-left: 1.25rem;
+  border-left: 1px solid var(--gold-400);
+}
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--glass-border);
+}
+.testimonial-avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--teal-500), var(--gold-500));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  color: var(--ink-900);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+.testimonial-meta strong {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--text-50);
+  font-weight: 500;
+}
+.testimonial-meta span {
+  font-size: 0.8rem;
+  color: var(--text-400);
+}
+.testimonial-placeholder {
+  border-style: dashed;
+  border-color: rgba(94, 234, 212, 0.2);
+  background: rgba(18, 38, 66, 0.25);
+}
+.testimonial-placeholder .testimonial-quote {
+  color: var(--text-400);
+  font-style: normal;
+}
+
+/* ================================
+   CONTACT
+   ================================ */
+.contact-wrap {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.contact-headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.05;
+  color: var(--text-50);
+  letter-spacing: -0.025em;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.contact-headline em {
+  font-style: italic;
+  color: var(--gold-400);
+  font-weight: 300;
+}
+.contact-desc {
+  font-size: 1.1rem;
+  color: var(--text-300);
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+.contact-channels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.contact-channel {
+  padding: 1.25rem 1.75rem;
+  border-radius: 14px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  text-align: left;
+  min-width: 240px;
+}
+.contact-channel:hover {
+  border-color: var(--teal-400);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-teal);
+}
+.contact-channel-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--teal-300);
+}
+.contact-channel-value {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--text-50);
+  font-weight: 500;
+}
+
+/* ================================
+   FOOTER
+   ================================ */
+.footer {
+  padding: 3rem 0 2rem;
+  border-top: 1px solid var(--glass-border);
+  margin-top: 4rem;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.footer-text {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-500);
+  letter-spacing: 0.05em;
+}
+.footer-credit {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-500);
+  letter-spacing: 0.1em;
+}
+
+/* ================================
+   ANIMATIONS — Reveal on scroll
+   ================================ */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity var(--transition-slow), transform var(--transition-slow);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal.delay-1 { transition-delay: 100ms; }
+.reveal.delay-2 { transition-delay: 200ms; }
+.reveal.delay-3 { transition-delay: 300ms; }
+.reveal.delay-4 { transition-delay: 400ms; }
+.reveal.delay-5 { transition-delay: 500ms; }
+
+/* ================================
+   RESPONSIVE
+   ================================ */
+@media (max-width: 968px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .console-card { max-width: 360px; }
+  .about-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .about-card { position: static; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .leadership-wrap { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+
+@media (max-width: 720px) {
+  .nav-links { display: none; }
+  .nav-toggle { display: flex; }
+  .nav-links.mobile-open {
+    display: flex;
+    position: fixed;
+    top: 70px;
+    left: 1rem;
+    right: 1rem;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: rgba(7, 16, 31, 0.95);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    gap: 1.25rem;
+  }
+  .hero-meta { gap: 1.5rem 2rem; }
+  .timeline { padding-left: 1.5rem; }
+  .timeline-item { padding-left: 1.5rem; }
+  .timeline-node { left: -1.5rem; }
+  .leadership-quote { padding: 1.5rem 1rem 1.5rem 2rem; }
+  .footer-inner { flex-direction: column; text-align: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#hero" class="brand">
+      <span class="brand-mark">ME</span>
+      Manikishore Eshwar
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#skills">Expertise</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#contact" class="nav-cta">Get in touch</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-status reveal">
+          <span class="status-dot"></span>
+          OPERATIONAL — DEPUTY MANAGER, ENTERPRISE EXCELLENCE
+        </div>
+        <h1 class="hero-title reveal delay-1">
+          Building <em>transitions</em><br>
+          that don't <span class="gold">break</span>.
+        </h1>
+        <p class="hero-tagline reveal delay-2">
+          I'm Manikishore — a US Healthcare RCM operations leader who turns chaotic onboarding into predictable, governed go-lives. Nine years in the trenches, forty-plus client transitions delivered, one quiet conviction: <em style="color: var(--teal-300); font-style: italic;">good operations is a creative act</em>.
+        </p>
+        <div class="hero-meta reveal delay-3">
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Based in</span>
+            <span class="hero-meta-value">Hyderabad, India</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Domain</span>
+            <span class="hero-meta-value">US Healthcare RCM</span>
+          </div>
+          <div class="hero-meta-item">
+            <span class="hero-meta-label">Currently</span>
+            <span class="hero-meta-value">Infinx</span>
+          </div>
+        </div>
+        <div class="hero-actions reveal delay-4">
+          <a href="#projects" class="btn btn-primary">
+            See the work
+            <span class="btn-arrow">→</span>
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            Get in touch
+          </a>
+        </div>
+      </div>
+
+      <div class="console-card reveal delay-3">
+        <div class="console-header">
+          <span class="console-title">Career.console</span>
+          <div class="console-dots">
+            <span class="console-dot active"></span>
+            <span class="console-dot active"></span>
+            <span class="console-dot"></span>
+          </div>
+        </div>
+        <div class="console-stat">
+          <span class="console-stat-label">Years in RCM</span>
+          <span class="console-stat-value">9<span class="accent">+</span></span>
+        </div>
+        <div class="console-stat">
+          <span class="console-stat-label">Client Transitions</span>
+          <span class="console-stat-value">40<span class="accent">+</span></span>
+        </div>
+        <div class="console-stat">
+          <span class="console-stat-label">RCM Scopes Covered</span>
+          <span class="console-stat-value">End-to-End</span>
+        </div>
+        <div class="console-stat">
+          <span class="console-stat-label">Largest Team Led</span>
+          <span class="console-stat-value">40 <span class="accent">associates</span></span>
+        </div>
+        <div class="console-stat">
+          <span class="console-stat-label">Published Work</span>
+          <span class="console-stat-value" style="font-size: 1rem;">Mostly Human, <em style="color: var(--gold-400);">Occasionally Weird</em></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint">Scroll to explore</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">01 — About</div>
+      <h2 class="display-lg">A practitioner first.<br>An operator by instinct.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal delay-1">
+        <p>I started my career on the floor — <strong>AR follow-up, denial work, insurance calling</strong>. Not in a strategy room. That distinction has shaped everything that came after.</p>
+        <p>Today I lead transitions for US Healthcare Revenue Cycle Management engagements at Infinx — owning the full lifecycle from sales handoff through hypercare stabilization. My work sits at the intersection of <em>operations rigor, governance design, and AI-led process thinking</em>.</p>
+        <p>What I've learned along the way: <strong>predictability is a creative output</strong>. Good transitions don't happen because someone wrote a Gantt chart — they happen because someone obsessed over the right details, built the right tools, and refused to ship until the system could run without them.</p>
+        <p>On weekends, sometimes, I write fiction. A short-story collection — <em>Mostly Human, Occasionally Weird</em> — was published by Notion Press in 2025. It's a quiet habit, not a second career. But it sharpens how I notice things at work the rest of the week.</p>
+      </div>
+      <div class="about-card reveal delay-2">
+        <h3>What I bring</h3>
+        <ul class="values-list">
+          <li>
+            <span class="value-num">01</span>
+            <div class="value-content">
+              <strong>Operator's instinct</strong>
+              <span>Floor-up career means I know where transitions actually break — not where the slide deck says they will.</span>
+            </div>
+          </li>
+          <li>
+            <span class="value-num">02</span>
+            <div class="value-content">
+              <strong>Systems thinking</strong>
+              <span>I build tools, frameworks, and trackers so the second transition is easier than the first.</span>
+            </div>
+          </li>
+          <li>
+            <span class="value-num">03</span>
+            <div class="value-content">
+              <strong>Augment, don't replace</strong>
+              <span>AI applied to operations as workforce enablement — not as a layoff strategy dressed up in buzzwords.</span>
+            </div>
+          </li>
+          <li>
+            <span class="value-num">04</span>
+            <div class="value-content">
+              <strong>Quiet accountability</strong>
+              <span>Single point of ownership through go-live. Client expectations, internal capacity, and commercial outcomes all in one head.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">02 — Journey</div>
+      <h2 class="display-lg">Nine years.<br>Four cities. <em style="font-family: var(--font-display); font-style: italic; color: var(--gold-400); font-weight: 300;">One arc.</em></h2>
+      <p class="lead">From AR associate handling individual denials in Chennai to leading enterprise transition strategy in Hyderabad. Click any role to read more.</p>
+    </div>
+    <div class="timeline reveal delay-1" id="timeline">
+      <div class="timeline-item gold">
+        <div class="timeline-node"></div>
+        <div class="timeline-date">APR 2026 — PRESENT</div>
+        <h3 class="timeline-role">Deputy Manager, Enterprise Excellence</h3>
+        <p class="timeline-company"><strong>Infinx</strong> · Hyderabad</p>
+        <p class="timeline-desc">Lead end-to-end transition management for US Healthcare RCM across Coding, Charge Entry, Payment Posting, and AR Follow-up. Single point of accountability for assigned transitions — balancing client expectations, capacity, compliance, and commercial outcomes. Build and maintain enterprise tooling (trackers, dashboards, frameworks). Champion AI-led process excellence and contribute to executive reviews with data-backed transition insights.</p>
+        <p class="timeline-expand-hint">↘ hover or tap to expand</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-date">FEB 2024 — MAR 2026</div>
+        <h3 class="timeline-role">Assistant Manager, Enterprise Excellence</h3>
+        <p class="timeline-company"><strong>Infinx</strong> · Hyderabad</p>
+        <p class="timeline-desc">Led onboarding for new medical billing clients. Developed and executed transition plans, gathered requirements, aligned stakeholders. Led a company-wide implementation of a workforce management tool — rule setup, configuration, rollout governance — bridging organizational leaders and tool vendors.</p>
+        <p class="timeline-expand-hint">↘ hover or tap to expand</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-date">JAN 2023 — FEB 2024</div>
+        <h3 class="timeline-role">Transition Lead</h3>
+        <p class="timeline-company"><strong>4D Global Medical Billing Services</strong> · Chennai</p>
+        <p class="timeline-desc">Spearheaded client initiation for new medical billing accounts. Led end-to-end transition projects — planning, execution, monitoring — with on-time, on-budget delivery. Single point of contact during and post-transition. Built process documentation, SOPs, and continuous improvement practices that elevated service quality across engagements.</p>
+        <p class="timeline-expand-hint">↘ hover or tap to expand</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-date">OCT 2021 — NOV 2022</div>
+        <h3 class="timeline-role">Team Leader</h3>
+        <p class="timeline-company"><strong>Guidehouse India</strong> · Trivandrum</p>
+        <p class="timeline-desc">Managed a team of 40 associates across Dental Billing AR and Claim Edits. Led training, performance management, and project transitions. This was the role where leadership stopped being theoretical — capacity planning, coaching difficult conversations, and protecting the team from chaos became daily work.</p>
+        <p class="timeline-expand-hint">↘ hover or tap to expand</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-date">AUG 2019 — SEP 2021</div>
+        <h3 class="timeline-role">Quality Analyst → Senior Process Associate</h3>
+        <p class="timeline-company"><strong>Guidehouse India</strong> · Trivandrum</p>
+        <p class="timeline-desc">Quality Analyst phase built the analytical muscle — monthly and quarterly reports, surfacing consistency issues, production deficiencies. Before that: AR follow-up across multi-specialty and dental billing. This is where pattern-recognition became second nature.</p>
+        <p class="timeline-expand-hint">↘ hover or tap to expand</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-date">JUL 2018 — JUL 2019</div>
+        <h3 class="timeline-role">Senior Process Associate</h3>
+        <p class="timeline-company"><strong>Knack Global</strong> · Mohali, Punjab</p>
+        <p class="timeline-desc">AR follow-up for Physical Therapy specialty. Resolved complex denials through analytical work. Trained and supported new team members, allocated tasks by skill set. First step outside Tamil Nadu — broadened how I saw the country and the industry.</p>
+        <p class="timeline-expand-hint">↘ hover or tap to expand</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-node"></div>
+        <div class="timeline-date">FEB 2017 — JUN 2018</div>
+        <h3 class="timeline-role">Associate</h3>
+        <p class="timeline-company"><strong>Omega Healthcare</strong> · Chennai</p>
+        <p class="timeline-desc">Where it started. End-to-end AR follow-up for multi-specialty healthcare clients. Insurance calling, denial resolution, work-plan definition. Every framework and tool I've built since traces back to questions that bothered me at this desk.</p>
+        <p class="timeline-expand-hint">↘ hover or tap to expand</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">03 — Expertise</div>
+      <h2 class="display-lg">What I'm <em style="font-family: var(--font-display); font-style: italic; color: var(--teal-300); font-weight: 300;">good at</em>.</h2>
+      <p class="lead">Domain depth meets systems thinking meets a quiet obsession with predictability.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon">TM</div>
+        <h3>Transition Management</h3>
+        <p>Full lifecycle ownership across all RCM scopes — Coding, Charge Entry, Payment Posting, AR Follow-up. Sales handoff through hypercare, with governance baked in from day one.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Go-Live Readiness</span>
+          <span class="skill-tag">Parallel Run</span>
+          <span class="skill-tag">Hypercare</span>
+          <span class="skill-tag">SOW & Scope</span>
+          <span class="skill-tag">RCM Domain Depth</span>
+        </div>
+      </div>
+      <div class="skill-card reveal delay-1">
+        <div class="skill-icon">OE</div>
+        <h3>Operations Excellence</h3>
+        <p>Process design, denial management, payer strategy, productivity tracking, and the executive reporting layer on top. The discipline of making good work repeatable — and visible.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Denial Mgmt</span>
+          <span class="skill-tag">SARC Framework</span>
+          <span class="skill-tag">SLA Dashboards</span>
+          <span class="skill-tag">Executive Reporting</span>
+          <span class="skill-tag">Continuous Improvement</span>
+        </div>
+      </div>
+      <div class="skill-card reveal delay-2">
+        <div class="skill-icon">AI</div>
+        <h3>AI-Led Process Design</h3>
+        <p>Applying AI to operations as workforce augmentation. Onboarding intelligence, decision support, and unified RCM AI operating concepts — built around the team, not over it.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">RCM AI OS</span>
+          <span class="skill-tag">Onboarding AI</span>
+          <span class="skill-tag">Workflow Orchestration</span>
+        </div>
+      </div>
+      <div class="skill-card reveal delay-3">
+        <div class="skill-icon">LD</div>
+        <h3>Leadership & Coaching</h3>
+        <p>Teams up to 40. Stakeholder governance across client SPOCs, internal leadership, cross-functional partners. Quiet, consistent, accountable.</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Cross-functional</span>
+          <span class="skill-tag">Coaching</span>
+          <span class="skill-tag">Stakeholder Mgmt</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">04 — Projects</div>
+      <h2 class="display-lg">Selected work.</h2>
+      <p class="lead">A small sample of the frameworks and systems I've built. Each one solved a real operating problem that wouldn't go away on its own.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal" data-tilt>
+        <div class="project-number">PROJECT 01</div>
+        <h3 class="project-title">Organization-Wide Productivity Tracker</h3>
+        <p class="project-desc">Led the rollout of an enterprise productivity tracking solution across delivery teams — covering rule configuration, governance, vendor alignment, and adoption enablement. The kind of project where the real work isn't the tool; it's the trust required for teams to use it honestly.</p>
+        <div class="project-meta">
+          <span class="project-meta-item">Enterprise Rollout</span>
+          <span class="project-meta-item">Vendor Mgmt</span>
+          <span class="project-meta-item">Change Mgmt</span>
+        </div>
+      </div>
+      <div class="project-card reveal delay-1" data-tilt>
+        <div class="project-number">PROJECT 02</div>
+        <h3 class="project-title">Enhanced Transition Frameworks</h3>
+        <p class="project-desc">Designed and standardized next-generation transition frameworks — go-live readiness checklists, multi-phase trackers, SLA dashboards, knowledge-transfer protocols. The goal: make every subsequent transition cheaper, faster, and less anxious than the one before it.</p>
+        <div class="project-meta">
+          <span class="project-meta-item">Frameworks</span>
+          <span class="project-meta-item">Governance</span>
+          <span class="project-meta-item">Tooling</span>
+        </div>
+      </div>
+      <div class="project-card reveal delay-2" data-tilt>
+        <div class="project-number">PROJECT 03</div>
+        <h3 class="project-title">Revenue Cycle AI Operating System</h3>
+        <p class="project-desc">Contributing to the conceptualization of a unified AI operating layer across RCM scopes — designed to augment the workforce through AI-led decision support and workflow orchestration. An "augment, not replace" thesis built into the system architecture.</p>
+        <div class="project-meta">
+          <span class="project-meta-item">AI Strategy</span>
+          <span class="project-meta-item">Workforce Aug</span>
+          <span class="project-meta-item">RCM-wide</span>
+        </div>
+      </div>
+      <div class="project-card reveal delay-3" data-tilt>
+        <div class="project-number">PROJECT 04</div>
+        <h3 class="project-title">Onboarding AI Enhancements</h3>
+        <p class="project-desc">Drove AI-enabled enhancements to client onboarding — intelligent discovery, automated readiness assessments, AI-assisted documentation. Cut manual effort in the discovery phase and accelerated time-to-ramp without sacrificing rigor.</p>
+        <div class="project-meta">
+          <span class="project-meta-item">Onboarding</span>
+          <span class="project-meta-item">Automation</span>
+          <span class="project-meta-item">Ramp Acceleration</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section id="leadership">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">05 — Leadership</div>
+      <h2 class="display-lg">How I lead.</h2>
+    </div>
+    <div class="leadership-wrap">
+      <div class="reveal delay-1">
+        <blockquote class="leadership-quote">
+          Leadership in operations isn't about being the loudest voice in the room. It's about being the one person whose calm doesn't break when the go-live does.
+        </blockquote>
+      </div>
+      <div class="leadership-pillars reveal delay-2">
+        <div class="pillar">
+          <span class="pillar-num">01</span>
+          <div class="pillar-content">
+            <strong>Augment, don't replace</strong>
+            <span>Whether it's a new tool, a new framework, or AI — the test is whether it makes the team's work better, not whether it makes their work obsolete.</span>
+          </div>
+        </div>
+        <div class="pillar">
+          <span class="pillar-num">02</span>
+          <div class="pillar-content">
+            <strong>Predictability over heroics</strong>
+            <span>Last-minute saves get applause. But the team that doesn't need to save anything is the better-run team. I optimize for the second outcome.</span>
+          </div>
+        </div>
+        <div class="pillar">
+          <span class="pillar-num">03</span>
+          <div class="pillar-content">
+            <strong>Single point of accountability</strong>
+            <span>Every assigned transition has one owner. Distributed accountability is a polite phrase for nobody-is-responsible.</span>
+          </div>
+        </div>
+        <div class="pillar">
+          <span class="pillar-num">04</span>
+          <div class="pillar-content">
+            <strong>Honest with everyone</strong>
+            <span>Clients hear the real risk profile. Leadership sees the unvarnished health score. The team is told the truth about what's working and what isn't.</span>
+          </div>
+        </div>
+        <div class="pillar">
+          <span class="pillar-num">05</span>
+          <div class="pillar-content">
+            <strong>Build the tooling once</strong>
+            <span>If a problem shows up twice, the third time should be solved by a framework — not by someone's heroic late-night spreadsheet.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">06 — By the numbers</div>
+      <h2 class="display-lg">A quick scorecard.</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-value" data-target="9"><span class="num">0</span><span class="suffix">+</span></div>
+        <div class="stat-label">Years in RCM</div>
+      </div>
+      <div class="stat-card gold reveal delay-1">
+        <div class="stat-value" data-target="40"><span class="num">0</span><span class="suffix">+</span></div>
+        <div class="stat-label">Client Transitions</div>
+      </div>
+      <div class="stat-card reveal delay-2">
+        <div class="stat-value" data-target="40"><span class="num">0</span></div>
+        <div class="stat-label">Largest Team Led</div>
+      </div>
+      <div class="stat-card gold reveal delay-3">
+        <div class="stat-value" data-target="4"><span class="num">0</span></div>
+        <div class="stat-label">RCM Scopes Owned</div>
+      </div>
+    </div>
+    <div class="awards-row reveal delay-4">
+      <div class="award-chip">Best Performer</div>
+      <div class="award-chip">Best Team Lead</div>
+      <div class="award-chip">Customer Service Award</div>
+      <div class="award-chip">AI-Enabled Lean Six Sigma Green Belt</div>
+      <div class="award-chip">Minitab Foundation Training</div>
+      <div class="award-chip">Published Author — Notion Press, 2025</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="eyebrow reveal" style="justify-content: center; margin: 0 auto 1.5rem; display: inline-flex;">07 — Connect</div>
+      <h2 class="contact-headline reveal delay-1">Let's <em>build</em> something<br>that doesn't break.</h2>
+      <p class="contact-desc reveal delay-2">Open to senior operations roles, transition leadership, RCM strategy conversations, and the occasional creative collaboration. The fastest way to reach me is below.</p>
+      <div class="contact-channels reveal delay-3">
+        <a href="mailto:manibhathini06@gmail.com" class="contact-channel">
+          <span class="contact-channel-label">Email</span>
+          <span class="contact-channel-value">manibhathini06@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/manikishoreeshwar-102029b2" target="_blank" rel="noopener" class="contact-channel">
+          <span class="contact-channel-label">LinkedIn</span>
+          <span class="contact-channel-value">/in/manikishoreeshwar</span>
+        </a>
+        <a href="tel:+919626634599" class="contact-channel">
+          <span class="contact-channel-label">Direct</span>
+          <span class="contact-channel-value">+91 96266 34599</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-text">© 2026 Manikishore Eshwar · Hyderabad, India</div>
+    <div class="footer-credit">DESIGNED & BUILT WITH INTENTION</div>
+  </div>
+</footer>
+
+<script>
+// ============================
+// NAV SCROLL EFFECT
+// ============================
+const nav = document.getElementById('nav');
+let lastScroll = 0;
+window.addEventListener('scroll', () => {
+  const currentScroll = window.scrollY;
+  if (currentScroll > 40) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+  lastScroll = currentScroll;
+}, { passive: true });
+
+// ============================
+// MOBILE NAV TOGGLE
+// ============================
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('mobile-open');
+});
+navLinks.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => navLinks.classList.remove('mobile-open'));
+});
+
+// ============================
+// REVEAL ON SCROLL
+// ============================
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+// ============================
+// TIMELINE — click to toggle (mobile-friendly)
+// ============================
+document.querySelectorAll('.timeline-item').forEach(item => {
+  item.addEventListener('click', (e) => {
+    // Don't interfere with hover on desktop; only toggle on tap
+    if (window.matchMedia('(hover: none)').matches) {
+      const wasActive = item.classList.contains('active');
+      document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+      if (!wasActive) item.classList.add('active');
+    }
+  });
+});
+
+// ============================
+// PROJECT CARDS — mouse-tracked gradient glow
+// ============================
+document.querySelectorAll('[data-tilt]').forEach(card => {
+  card.addEventListener('mousemove', (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    card.style.setProperty('--mx', x + '%');
+    card.style.setProperty('--my', y + '%');
+  });
+});
+
+// ============================
+// STAT COUNTERS — count up on view
+// ============================
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      const target = parseInt(el.dataset.target, 10);
+      const numEl = el.querySelector('.num');
+      const duration = 1400;
+      const start = performance.now();
+      const animate = (now) => {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        // ease-out
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.floor(eased * target);
+        numEl.textContent = current;
+        if (progress < 1) requestAnimationFrame(animate);
+        else numEl.textContent = target;
+      };
+      requestAnimationFrame(animate);
+      counterObserver.unobserve(el);
+    }
+  });
+}, { threshold: 0.4 });
+
+document.querySelectorAll('.stat-value[data-target]').forEach(el => counterObserver.observe(el));
+
+// ============================
+// CONSOLE DOTS — subtle animated state
+// ============================
+const consoleDots = document.querySelectorAll('.console-dot');
+let dotIndex = 1;
+setInterval(() => {
+  consoleDots.forEach((d, i) => d.classList.toggle('active', i <= dotIndex));
+  dotIndex = (dotIndex + 1) % consoleDots.length;
+}, 1800);
+
+// ============================
+// SMOOTH SCROLL — adjust for fixed nav
+// ============================
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', (e) => {
+    const id = a.getAttribute('href');
+    if (id === '#' || id.length < 2) return;
+    const target = document.querySelector(id);
+    if (!target) return;
+    e.preventDefault();
+    const offset = 80;
+    const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  });
+});
+</script>
+</body>
+</html>
